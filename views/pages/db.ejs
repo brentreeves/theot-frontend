@@ -17,6 +17,41 @@
     <% }); %>
 </ul>
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../partials/header.ejs %>
+  </head>
+
+  <body>
+    <% include ../partials/nav.ejs %>
+
+    <div class="container">
+      <h2>Table Dots</h2>
+
+    <table>
+      <tr>
+	<th>Book</th> <th>Witness</th> <th>Verses</th> <th>ones</th>
+      </tr>
+        <% results.forEach(function(r) { %>
+	 <tr>
+	   <td><%= r.book %></td>
+	   <td><%= r.witness %></td>
+	   <td><%= r.verses %></td>
+	   <td><%= r.ones %></td>
+	 </tr>
+	 <% }); %>
+      </table>
+
+
+    </div>
+  </body>
+</html>
+
+
+
+
+
 </div>
 
 </body>
