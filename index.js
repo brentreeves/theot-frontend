@@ -30,7 +30,7 @@ express()
 	console.log('table ' + TABLE1);
 	try {
 	    const client = await pool.connect();
-	    const sql = `select * from ${TABLE1} where book = "Oba" order by book, witness`;
+	    const sql = `select * from ${TABLE1} where book = \'Oba\' order by book, witness`;
 	    const result = await client.query(sql);
 	    const results = { results: result ? result.rows : null };
 	    res.render("pages/db", results);
