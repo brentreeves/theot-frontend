@@ -14,7 +14,8 @@ console.log("index.js starting...\n");
 // heroku
  const pool = new Pool({
    connectionString: process.env.DATABASE_URL,
-   ssl: true
+     ssl: { rejectUnauthorized: false }
+//   ssl: true
  });
 // heroku end
 
