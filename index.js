@@ -40,4 +40,8 @@ express()
 	    res.send("Error db " + err);
 	}
     })
-    .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+    .listen(PORT, () => console.log(`Listening on ${ PORT }`));
+
+// ??
+// logEntry = id => {};
+
