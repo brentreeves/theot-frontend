@@ -1,39 +1,34 @@
-# node-js-getting-started
+# vue-3-crud
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
-
-This application supports the [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
-
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
-
-```sh
-$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
+## Project setup
+```
+yarn install
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
+### Compiles and hot-reloads for development
 ```
-$ heroku create
-$ git push heroku main
-$ heroku open
+yarn serve
 ```
-or
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+### Compiles and minifies for production
+```
+yarn build
+```
 
-## Documentation
+### Run your unit tests
+```
+yarn test:unit
+```
 
-For more information about using Node.js on Heroku, see these Dev Center articles:
+### Run your end-to-end tests
+```
+yarn test:e2e
+```
 
-- [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
