@@ -183,7 +183,7 @@
                   >
                     <i class="bi bi-gear"></i>
                   </div>
-                  <h2 class="h5">Analysis</h2>
+                  <h2 class="h5"><a href="Analysis">Analysis</a></h2>
                   <p class="mb-0">
                     Choose which data you want to analyze and what kind of
                     analysis to run in R.

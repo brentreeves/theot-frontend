@@ -77,6 +77,11 @@ const routes = [
     component: () => import("./components/Visualize"),
   },
   {
+    path: "/analysis",
+    name: "Analysis",
+    component: () => import("./components/Analysis"),
+  },
+  {
     path: "/newRatio",
     name: "newRatio",
     component: () => import("./components/NewRatio"),
