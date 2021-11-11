@@ -46,6 +46,10 @@
     "env": {
       "node": true
     },
+    "engines": {
+      "node": "16.x",
+      "npm": "8.x"
+    },
     "extends": [
       "plugin:vue/essential",
       "eslint:recommended"
