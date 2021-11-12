@@ -9,6 +9,10 @@
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"
   },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
   "dependencies": {
     "~": "file:../../../../../../../../assets/img/manuscript-header3.png",
     "axios": "^0.22.0",
@@ -45,10 +49,6 @@
     "root": true,
     "env": {
       "node": true
-    },
-    "engines": {
-      "node": "16.x",
-      "npm": "8.x"
     },
     "extends": [
       "plugin:vue/essential",
