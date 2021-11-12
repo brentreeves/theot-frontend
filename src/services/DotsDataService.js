@@ -2,6 +2,7 @@ import http from "../http-common";
 
 class DotsDataService {
   getAll() {
+    console.log("DotsDataService getAll");
     return http.get("/dots");
   }
 
