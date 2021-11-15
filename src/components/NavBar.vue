@@ -15,7 +15,7 @@
           <li class="nav-item"><a class="nav-link">|</a></li>
           <li class="nav-item"><a class="nav-link" href="#!">Analytics</a></li> 
           <li class="nav-item"><a class="nav-link">|</a></li>
-          <li class="nav-item"><a class="nav-link" href="#!">Visualizations</a></li> 
+          <li class="nav-item"><a class="nav-link" href="visualize">Visualizations</a></li> 
           <li class="nav-item"><a class="nav-link">|</a></li>
           <li class="nav-item">
             <a
