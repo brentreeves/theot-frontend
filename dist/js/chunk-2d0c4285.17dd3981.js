@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c4285"],{"3a45":function(e,n,r){"use strict";r.r(n);var t=r("7a23");function c(e,n){return Object(t["r"])(),Object(t["e"])("h1",null,"Create Cluster Profile Tables")}var a=r("6b0d"),u=r.n(a);const o={},s=u()(o,[["render",c]]);n["default"]=s}}]);
-//# sourceMappingURL=chunk-2d0c4285.17dd3981.js.map
