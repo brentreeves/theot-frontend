@@ -1,107 +1,93 @@
 <template>
-  <NavBar/>
-  <div>
-    <h1>Visualizing data based on percentage agreement</h1>
-    <p>Data with higher percent similiary will receive a longer arc.</p>
-    <v-app>
-      <v-container>
-        <v-row>
-          <v-col cols="4" class="d-flex justify-center align-center">
-            <div class="pa-2"></div>
-          </v-col>
-          <v-col id="arc" />
-        </v-row>
-      </v-container>
-    </v-app>
+<NavBar/>
+  <div class = "container">
+    <div class="row">
+      <h1 class="col-sm mt-auto text-left">Analytics</h1>
+      <h1 class="col-sm mt-auto" style="font-size: 25px;"><em>"Data science meets book culture and textual history."</em></h1>
+    </div>
+
+    <div class="row">
+      <div class="col-6 text-left">
+        <ul>
+          <li >
+            <p>Turning texts into numbers.</p>
+          </li>
+
+          <li>
+            <p>Identifying patterns in the numbers.</p>
+          </li>
+
+          <li>
+            <p>Turning numbers into stories</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 text-left mt-auto">
+        <div class=""><strong>THEOT SCRIPTS</strong></div>
+          <ul>
+            <li class=""><a href="">Follow this link to the THEOT Scripts (need links) </a> </li> 
+           </ul> 
+                  
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-5 text-left">
+        <div><strong>Bibliograpahy</strong></div>
+        <ul>
+          <li> Article in Textus </li>
+          <li> Garry and Steve’s article in Weniger volume: </li>
+          <li> Steve and Garry articles in THB vol. 4 </li>
+          <li> Steve and Daniel’s article ANE Today </li>
+          <li> Steve and Jeremy and Wendy’s book </li>
+          <li> Steve and Cameron on Ps 151 in THB </li>
+          <li> Introduction to step 6: </li>
+          <li> Introduction to step 7: </li>
+        </ul>
+      </div>
+      
+
+      <div class="col-5 text-left">
+        <div><strong>Tutorials</strong></div>
+        <ul>
+          <li> <a href="">Introduction to User Interface</a></li>
+          <li> <a href="">Introduction to step 1: </a></li>
+          <li> <a href="">Introduction to step 2: </a></li>
+          <li> <a href="">Introduction to step 3: </a></li>
+          <li> <a href="">Introduction to step 4: </a></li>
+          <li> <a href="">Introduction to step 5: </a></li>
+          <li> <a href="">Introduction to step 6: </a></li>
+          <li> <a href="">Introduction to step 7: </a></li>
+        </ul>
+      </div>
+
+      <div class="col-2 text-left">
+        <div> </div>
+        <ul style="list-style-type: none;">
+          <li>--------------------</li>
+          <li> <a href="">Transcript PDF</a></li>
+          <li> <a href="">Transcript PDF</a></li>
+          <li> <a href="">Transcript PDF</a></li>
+          <li> <a href="">Transcript PDF</a></li>
+          <li> <a href="">Transcript PDF</a></li>
+          <li> <a href="">Transcript PDF</a></li>
+          <li> <a href="">Transcript PDF</a></li>
+          <li> <a href="">Transcript PDF</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
+
+  
+
 </template>
 
 <script>
-import * as d3 from "d3";
-import NavBar from "./NavBar";
-
+import NavBar from "./NavBar"
 export default {
-  components: {NavBar},
-  name: "App",
-  data() {
-    return {
-      wit: [
-        { witness: "W01", percent: 1.0 },
-        { witness: "W02", percent: 0.891 },
-        { witness: "W03", percent: 0.874 },
-        { witness: "W04", percent: 0.879 },
-        { witness: "W05", percent: 0.892 },
-        { witness: "W06", percent: 0.965 },
-        { witness: "W07", percent: 0.885 },
-      ],
-    };
-  },
-  mounted() {
-    this.generateArc();
-  },
-  methods: {
-    generateArc() {
-      const w = 500;
-      const h = 500;
-
-      const svg = d3
-        .select("#arc")
-        .append("svg")
-        .attr("width", w)
-        .attr("height", h);
-
-      const sortedPercents = this.wit.sort((a, b) =>
-        a.percent > b.percent ? 1 : -1
-      );
-      const color = d3.scaleOrdinal(d3.schemeDark2);
-
-      const max_percent = d3.max(sortedPercents, (o) => o.percent);
-
-      const angleScale = d3
-        .scaleLinear()
-        .domain([0, max_percent])
-        .range([0, 2 * Math.PI]);
-
-      const size = 30;
-
-      const arc = d3
-        .arc()
-        .innerRadius((d, i) => (i + 1) * size)
-        .outerRadius((d, i) => (i + 2) * size)
-        .startAngle(angleScale(0))
-        .endAngle((d) => angleScale(d.percent));
-
-      const g = svg.append("g");
-
-      g.selectAll("path")
-        .data(sortedPercents)
-        .enter()
-        .append("path")
-        .attr("d", arc)
-        .attr("fill", (d, i) => color(i))
-        .attr("stroke", "#FFF")
-        .attr("stroke-width", "1px")
-        .on("mouseenter", function () {
-          d3.select(this).transition().duration(200).attr("opacity", 0.5);
-        })
-        .on("mouseout", function () {
-          d3.select(this).transition().duration(200).attr("opacity", 1);
-        });
-
-      g.selectAll("text")
-        .data(this.wit)
-        .enter()
-        .append("text")
-        .text((d) => `${d.witness} -  ${d.percent * 100}%`)
-        .attr("font-size", size / 2.3)
-        .attr("x", 5)
-        .attr("dy", -8)
-        .attr("y", (d, i) => -(i + 1) * size);
-
-      g.attr("transform", "translate(" + w / 2 + "," + h / 2 + ")");
-    },
-  },
-};
+  components: {NavBar}
+}
 </script>
 
 <style>

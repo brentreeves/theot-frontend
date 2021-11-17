@@ -136,6 +136,31 @@ const routes = [
     name: "populateClusterProfiles",
     component: () => import("./components/PopulateClusterProfiles"),
   },
+  {
+    path: "/learnMore",
+    name: "learnMore",
+    component: () => import("./components/LearnMore"),
+  },
+  {
+    path: "/dataArchives",
+    name: "dataArchives",
+    component: () => import("./components/DataArchives"),
+  },
+  {
+    path: "/textViewer",
+    name: "textViewer",
+    component: () => import("./components/TextViewer"),
+  },
+  {
+    path: "/analytics",
+    name: "analytics",
+    component: () => import("./components/Analytics"),
+  },
+  {
+    path: "/manuscripts",
+    name: "manuscripts",
+    component: () => import("./components/Manuscripts"),
+  },
 ];
 
 const router = createRouter({
