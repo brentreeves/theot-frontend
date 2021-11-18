@@ -1,14 +1,73 @@
 <template>
-  <NavBar/>
-  <h1>Data Archives</h1>
-  <p>Yo here is a paragraph</p>
+<NavBar/>
+  <div class = "container">
+    <div class="row">
+      <h1 class="col-sm mt-auto text-left">Data</h1>
+      <h1 class="col-sm mt-auto" style="font-size: 25px;"><em>“No one set of conclusions from the data is more important than the data itself.”</em></h1>
+    </div>
+
+    <div class="row">
+      <div class="col-6 text-left">
+        <ul>
+          <li >
+            <p>Complete data sets are available for each of the books involved in our project.</p>
+          </li>
+
+          <li>
+            <p>In addition, we’ve provided video tutorials to explain the nature and layout of the data.</p>
+          </li>
+
+         
+        </ul>
+      </div>
+
+      <div class="col-6 text-left mt-auto">
+        <div class=""><strong>THEOT DATA SETS – arranged by book of the Old Testament</strong></div>
+          <ul>
+            <li class=""><a href="">Deuteronomy [linked to the location of data files]</a> </li> 
+            <li class=""><a href="">Judges [linked to the location of data files]</a> </li> 
+            <li class=""><a href="">Ecclesiastes [linked to the location of data files]</a> </li> 
+            <li class=""><a href="">Hosea [linked to the location of data files]</a> </li> 
+            <li class=""><a href="">Amos [linked to the location of data files]</a> </li> 
+            <li class=""><a href="">Obadiah [linked to the location of data files]</a> </li> 
+            <li class=""><a href="">Nahum [linked to the location of data files]</a> </li> 
+          </ul> 
+                  
+      </div>
+    </div>
+
+    <div class="row">   
+      <div class="col-6 text-left">
+        
+      </div>   
+      <div class="col-6 text-left">
+        <div><strong>VIDEO TUTORIALS</strong></div>
+        <ul>
+          <li> <a href="">Introduction to Database of Variants - Columns</a></li>
+          <li> <a href="">Introduction to Database of Variants – Columns – Words Profile Match</a></li>
+          <li> <a href="">Introduction to Database of Variants – Columns – Words Profile Match – All – Exclude Unique Readings</a></li>
+          <li> <a href="">Introduction to Database of Variants – Columns – Words Profile Match – Distinctive Readings</a></li>
+          <li> <a href="">Introduction to Database of Variants – Columns – Words Profile Match – Best Representatives</a></li>
+          <li> <a href="">Using R to Generate Dendrograms</a></li>
+          <li> <a href="">Introduction to the Dendrogram</a></li>
+          <li> <a href="">Introduction to the the “DR Strategies Spreadsheet”</a></li>
+   
+        </ul>
+      </div>
+
+    
+    </div>
+  </div>
+
+  
+
 </template>
 
 <script>
-  import NavBar from "./NavBar"
-  export default {
+import NavBar from "./NavBar"
+export default {
   components: {NavBar}
-  }
+}
 </script>
 
 <style>
