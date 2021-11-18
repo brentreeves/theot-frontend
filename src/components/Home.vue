@@ -47,7 +47,7 @@
                     href="#features"
                     >Get Started</a
                   >
-                  <a class="btn btn-outline-light btn-lg px-4" href="about.html"
+                  <a class="btn btn-outline-light btn-lg px-4" href="learnmore"
                     >Learn More</a
                   >
                 </div>

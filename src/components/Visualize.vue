@@ -2,21 +2,21 @@
   <NavBar/>
   <div class = "container">
     <div class="row">
-      <h1 class="col-4 text-uppercase text-center">VISUALIZATION</h1>
+      <h1 class="col-4 text-uppercase text-center">VISUALIZATIONS</h1>
       <h1 class="col-8 mt-auto" ><em>"Ultimately, the data exists to be visualized. This is where the stories emerge."</em></h1>
     </div>
 
 
 
     <div class="row">
-      <div class="col-4 text-left">
+      <div class="col-5 text-left" style="font-size: 26px">
         Hidden in the data-like the proverbial needles in the haystack-are hidden patterns of shared variations. Once we find the patterns, the task is to visualize the results and tell the stories.
       </div>
 
-      <div class="col-8 ">
+      <div class="col-7 ">
         <h1 class="text-start text-uppercase" style="font-size: 25px;"><em>THEOT DATA VISUALIZATIONS</em></h1>
         <div class="text-left">
-          <ul>
+          <ul style="list-style-type: none;">
             <li >
               <a href="">Follow this link to the Theot Visualization Dashboard</a>
             </li>
@@ -25,10 +25,10 @@
       </div>
     </div>
     <div class="row">
-        <div class="col-4"/>
-        <div class="col-8 text-left">
+        <div class="col-5"/>
+        <div class="col-7 text-left">
           <p class="text-start">VIDEO TUTORIALS</p>
-          <ul>
+          <ul style="list-style-type: none;">
             <li >
               <a href="">Introduction to User Dashboard</a>
             </li>

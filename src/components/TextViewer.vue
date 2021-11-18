@@ -2,23 +2,16 @@
   <NavBar/>
   <div class = "container">
     <div class="row">
-      <h1 class="col-4 text-uppercase text-center">Text Viewer</h1>
+      <h1 class="col-4 text-uppercase text-center">TEXT VIEWER</h1>
       <h1 class="col-8 mt-auto" ><em>"There is no better way to see what is going on in the textual history."</em></h1>
     </div>
 
 
 
     <div class="row">
-      <div class="col-4 text-left">
-        <ul>
-          <li >
-            <p>See the text of an ethiopic Old Testament book in its earliest attested textform.</p>
-          </li>
-
-          <li>
-            <p>Or, see the 30+ witnesses of each book, verse by verse, arranged by cluster.</p>
-          </li>
-        </ul>
+      <div class="col-4 text-left" style="font-size: 26px;">
+        <p>See the text of an ethiopic Old Testament book in its earliest attested textform.</p>
+        <p>Or, see the 30+ witnesses of each book, verse by verse, arranged by cluster.</p>
       </div>
 
       <div class="col-8 ">

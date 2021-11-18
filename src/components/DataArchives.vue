@@ -2,26 +2,17 @@
 <NavBar/>
   <div class = "container">
     <div class="row">
-      <h1 class="col-sm mt-auto text-left">Data</h1>
-      <h1 class="col-sm mt-auto" style="font-size: 25px;"><em>“No one set of conclusions from the data is more important than the data itself.”</em></h1>
+      <h1 class="col-3 mt-auto text-left">DATA</h1>
+      <h1 class="col-9 mt-auto" style="font-size: 28px;"><em>“No one set of conclusions from the data is more important than the data itself.”</em></h1>
     </div>
 
     <div class="row">
-      <div class="col-6 text-left">
-        <ul>
-          <li >
-            <p>Complete data sets are available for each of the books involved in our project.</p>
-          </li>
-
-          <li>
-            <p>In addition, we’ve provided video tutorials to explain the nature and layout of the data.</p>
-          </li>
-
-         
-        </ul>
+      <div class="col-4 text-left" style="font-size: 26px;">
+        <p>Complete data sets are available for each of the books involved in our project.</p>
+        <p>In addition, we’ve provided video tutorials to explain the nature and layout of the data.</p>
       </div>
 
-      <div class="col-6 text-left mt-auto">
+      <div class="col-8 text-left mt-auto">
         <div class=""><strong>THEOT DATA SETS – arranged by book of the Old Testament</strong></div>
           <ul>
             <li class=""><a href="">Deuteronomy [linked to the location of data files]</a> </li> 
@@ -37,10 +28,10 @@
     </div>
 
     <div class="row">   
-      <div class="col-6 text-left">
+      <div class="col-4 text-left">
         
       </div>   
-      <div class="col-6 text-left">
+      <div class="col-8 text-left">
         <div><strong>VIDEO TUTORIALS</strong></div>
         <ul>
           <li> <a href="">Introduction to Database of Variants - Columns</a></li>

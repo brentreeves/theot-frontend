@@ -2,40 +2,34 @@
   <NavBar/>
   <div class = "container">
     <div class="row">
-      <h1 class="col-sm mt-auto">Manuscripts</h1>
-      <h1 class="col-sm mt-auto" ><em></em></h1>
+      <h1 class="col-4 mt-auto">Manuscripts</h1>
+      <h1 class="col-6 mt-auto" style="font-size: 25px" ><em>"It is the manuscripts that tell the story."</em></h1>
     </div>
 
 
 
     <div class="row">
-      <div class="col-8 text-left">
-        <ul>
-          <li >
+      <div class="col-4 text-left" style="font-size: 25px">
+    
             <p>It requires more than thirty copies of a book of the Ethiopic Old Testament in order to know the broad contours of its textual history.</p>
-          </li>
-
-          <li>
+          
             <p>This goal also requires an even distribution of copies from the seven centuries of the extant manuscript tradition.  This means we need somewhere between 350 and 500 manuscripts to create the accurate datasets we need for the entire Ethiopic Old Testament.</p>
-          </li>
-
-          <li>
+          
             <p>Even fifteen years ago, such a goal would have been impossible to achieve.</p>
-          </li>
-        </ul>
+          
       </div>
 
-      <div class="col-4 ">
-        <h1 class="" style="font-size: 25px;"><em>"It is the manuscripts that tell the story."</em></h1>
-        <div class=""> 
+      <div class="col-6 d-flex align-items-center">
+        <h1 class="" style="font-size: 18px;">DATABASE OF ETHIOPIC MANUSCRIPTS carrying books of the Ethiopic Old Testament
           <a href="https://www.dropbox.com/sh/f6xy7rzamntpu03/AAAYAI6MqJkZwSCOLi0ktwc5a?dl=0" target="_blank">
-          Drop Box Link
-          </a> 
-        </div>
+          Drop Box</a> 
+        </h1>
       </div>
     </div>
   </div>
 </template>
+
+
 
 <script>
 import NavBar from "./NavBar"
