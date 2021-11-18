@@ -2,65 +2,25 @@
 <NavBar/>
   <div class = "container">
     <div class="row">
-      <h1 class="col-sm mt-auto text-left">Learn More</h1>
-      <h1 class="col-sm mt-auto" style="font-size: 25px;"><em>“No one set of conclusions from the data is more important than the data itself.”</em></h1>
+      <h1 class="col-4  text-left">LEARN MORE</h1>
+      <h1 class="col-8  mt-auto" style="font-size: 25px;"><em>It has taken a full decade to develop our team and our method, complete with workflow, and computer programs.  Now, the big story is coming clear. </em></h1>
     </div>
 
     <div class="row">
       <div class="col-6 text-left">
-        <ul>
-          <li >
-            <p>Complete data sets are available for each of the books involved in our project.</p>
-          </li>
-
-          <li>
-            <p>In addition, we’ve provided video tutorials to explain the nature and layout of the data.</p>
-          </li>
-
-         
-        </ul>
+        <p style="font-size: 28px"><strong>Working to tell the story of the path of Christian Scriptures in and through Ethiopian book culture.</strong></p>
       </div>
 
       <div class="col-6 text-left mt-auto">
-        <div class=""><strong>THEOT DATA SETS – arranged by book of the Old Testament</strong></div>
-          <ul>
-            <li class=""><a href="">Deuteronomy [linked to the location of data files]</a> </li> 
-            <li class=""><a href="">Judges [linked to the location of data files]</a> </li> 
-            <li class=""><a href="">Ecclesiastes [linked to the location of data files]</a> </li> 
-            <li class=""><a href="">Hosea [linked to the location of data files]</a> </li> 
-            <li class=""><a href="">Amos [linked to the location of data files]</a> </li> 
-            <li class=""><a href="">Obadiah [linked to the location of data files]</a> </li> 
-            <li class=""><a href="">Nahum [linked to the location of data files]</a> </li> 
-          </ul> 
-                  
+          <ul style="list-style-type: none;">
+            <li class=""><p>GOALS OF THEOT PROJECT</p></li>
+            <li class=""><p>DETAILS OF THE NEH GRANT</p> </li> 
+            <li class=""><p>PERSONNEL</p> </li> 
+            <li class=""><p>HISTORY OF THE THEOT PROJECT</p></li>
+          </ul>          
       </div>
-    </div>
-
-    <div class="row">   
-      <div class="col-6 text-left">
-        
-      </div>   
-      <div class="col-6 text-left">
-        <div><strong>VIDEO TUTORIALS</strong></div>
-        <ul>
-          <li> <a href="">Introduction to Database of Variants - Columns</a></li>
-          <li> <a href="">Introduction to Database of Variants – Columns – Words Profile Match</a></li>
-          <li> <a href="">Introduction to Database of Variants – Columns – Words Profile Match – All – Exclude Unique Readings</a></li>
-          <li> <a href="">Introduction to Database of Variants – Columns – Words Profile Match – Distinctive Readings</a></li>
-          <li> <a href="">Introduction to Database of Variants – Columns – Words Profile Match – Best Representatives</a></li>
-          <li> <a href="">Using R to Generate Dendrograms</a></li>
-          <li> <a href="">Introduction to the Dendrogram</a></li>
-          <li> <a href="">Introduction to the the “DR Strategies Spreadsheet”</a></li>
-   
-        </ul>
-      </div>
-
-    
     </div>
   </div>
-
-  
-
 </template>
 
 <script>

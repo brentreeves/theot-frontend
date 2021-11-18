@@ -23,8 +23,12 @@
 
       <div class="col-8 ">
         <h1 class="text-start text-uppercase" style="font-size: 25px;"><em>The text viewer [LINK]</em></h1>
-        <div class=""> 
-          <a href="">Follow this link to the manuscript viewer.</a>
+        <div class="text-left"> 
+          <ul>
+            <li>
+              <a href="">Follow this link to the manuscript viewer.</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
