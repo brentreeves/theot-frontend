@@ -90,72 +90,83 @@
             <div class="col-lg-8">
               <div class="row gx-5 row-cols-1 row-cols-md-2">
                 <div class="col mb-5 h-100">
-                  <div
-                    class="
-                      feature
-                      bg-primary bg-gradient
-                      text-white
-                      rounded-3
-                      mb-3
-                    "
-                  >
-                    <i class="bi bi-collection"></i>
-                  </div>
 
-                  <h2 class="h5">Data</h2>
+                  <a href="dataarchives">
+                    <div id="iconButton"
+                      class="
+                        feature
+                        bg-primary bg-gradient
+                        text-white
+                        rounded-3
+                        mb-3
+                      "                  
+                    >
+                      <i class="bi bi-collection"></i>
+                    </div>
+                  </a>
+
+                  <h2 class="h5"><a href="dataarchives">Data</a></h2>
                   <p class="mb-0">
                     We've uploaded transcriptions and data files to make them
                     accessible to researchers globally.
                   </p>
                 </div>
                 <div class="col mb-5 h-100">
-                  <div
-                    class="
-                      feature
-                      bg-primary bg-gradient
-                      text-white
-                      rounded-3
-                      mb-3
-                    "
-                  >
-                    <i class="bi bi-card-text"></i>
-                  </div>
-                  <h2 class="h5">Text Viewer</h2>
+                  <a href="textviewer">
+                    <div id="iconButton"
+                      class="
+                        feature
+                        bg-primary bg-gradient
+                        text-white
+                        rounded-3
+                        mb-3
+                      "
+                    >
+                      <i class="bi bi-card-text"></i>
+                    </div>
+                  </a>
+
+                  <h2 class="h5"><a href="textviewer">Text Viewer</a></h2>
                   <p class="mb-0">
                     Compare witnesses verse by verse in our online text viewer.
                   </p>
                 </div>
                 <div class="col mb-5 mb-md-0 h-100">
-                  <div
-                    class="
-                      feature
-                      bg-primary bg-gradient
-                      text-white
-                      rounded-3
-                      mb-3
-                    "
-                  >
-                    <i class="bi bi-gear"></i>
-                  </div>
-                  <h2 class="h5"><a href="Analysis">Analysis</a></h2>
+                  <a href="analytics">
+                    <div id="iconButton"
+                      class="
+                        feature
+                        bg-primary bg-gradient
+                        text-white
+                        rounded-3
+                        mb-3
+                      "
+                    >
+                      <i class="bi bi-gear"></i>
+                    </div>
+                  </a>
+                  <h2 class="h5"><a href="analytics">Analytics</a></h2>
                   <p class="mb-0">
-                    Choose which data you want to analyze and what kind of
-                    analysis to run in R.
+                    We’ve developed workflows and programs to transform 
+                    the phenomena of shared readings into data which can be analyzed statistically.
                   </p>
                 </div>
                 <div class="col h-100">
-                  <div
-                    class="
-                      feature
-                      bg-primary bg-gradient
-                      text-white
-                      rounded-3
-                      mb-3
-                    "
-                  >
-                    <i class="bi bi-bar-chart-line"></i>
-                  </div>
-                  <h2 class="h5">Visualization</h2>
+                  <a href="visualize">
+
+                    <div id="iconButton"
+                      class="
+                        feature
+                        bg-primary bg-gradient
+                        text-white
+                        rounded-3
+                        mb-3
+                      "
+                    >
+                      <i class="bi bi-bar-chart-line"></i>
+                    </div>
+                  </a>
+                  <h2 class="h5"><a href="visualize">Visualization</a></h2>
                   <p class="mb-0">
                     Take data from pre-made sets or from your own analysis and
                     visualize it in innovative ways that helps you tell the
@@ -411,6 +422,12 @@ export default {
 </script>
 
 <style>
+
+#iconButton:hover{
+  --bs-primary-rgb: var(--bs-primary-rgb-hover);
+}
+
+
 /*!
 * Start Bootstrap - Modern Business v5.0.5 (https://startbootstrap.com/template-overviews/modern-business)
 * Copyright 2013-2021 Start Bootstrap
@@ -453,7 +470,10 @@ export default {
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+
   --bs-primary-rgb: 13, 110, 253;
+  --bs-primary-rgb-hover: 0, 64, 195;
+  
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
