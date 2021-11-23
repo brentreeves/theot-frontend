@@ -5,6 +5,7 @@ dotenv.config();
 //const { NODE_ENV, BACKEND } = process.env;
 
 var myBackend = process.env.BACKEND || "http://localhost:8080/api";
+console.log("http-common backend: ", myBackend);
 
 //const dotenv = require("dotenv");
 
