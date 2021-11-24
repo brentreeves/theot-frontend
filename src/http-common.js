@@ -4,7 +4,11 @@ dotenv.config();
 
 //const { NODE_ENV, BACKEND } = process.env;
 
-var myBackend = process.env.BACKEND_URL || "http://localhost:8080/api";
+var myBackend = "http://localhost:8080/api";
+var myEnv = process.env.NODE_ENV;
+if (myEnv == "production")
+  myBackend = "https://theot-backend.herokuapp.com/api";
+
 console.log(
   "http-common backend: ",
   myBackend,
