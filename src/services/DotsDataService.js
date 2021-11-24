@@ -8,7 +8,9 @@ class DotsDataService {
       " process-env ",
       process.env,
       " process-env-backend ",
-      process.env.BACKEND_URL
+      process.env.BACKEND_URL,
+      " node-env ",
+      process.env.NODE_ENV
     );
     return http.get("/dots");
   }
