@@ -1,12 +1,16 @@
 <template>
 <NavBar/>
   <div class = "container">
+    <div style="height: 10px;"/>
     <div class="row">
       <h1 class="col-4 mt-auto text-left">ANALYTICS</h1>
       <h1 class="col-6 mt-auto" style="font-size: 25px;"><em>"Data science meets book culture and textual history."</em></h1>
     </div>
 
+
+
     <div class="row">
+      <div style="height: 50px;"/>
       <div class="col-5 text-left" style="font-size: 26px;">
         <p>Turning texts into numbers.</p>
         <p>Identifying patterns in the numbers.</p>

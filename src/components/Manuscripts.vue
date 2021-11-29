@@ -2,14 +2,15 @@
   <NavBar/>
   <div class = "container">
     <div class="row">
-      <h1 class="col-4 mt-auto">Manuscripts</h1>
-      <h1 class="col-6 mt-auto" style="font-size: 25px" ><em>"It is the manuscripts that tell the story."</em></h1>
+      <div style="height: 10px;"/>
+      <h1 class="col-4 mt-auto text-left">MANUSCRIPTS</h1>
+      <h1 class="col-6 mt-auto text-left" style="font-size: 25px" ><em>"It is the manuscripts that tell the story."</em></h1>
     </div>
 
 
 
     <div class="row">
-      <div class="col-4 text-left" style="font-size: 25px">
+      <div class="col-4 text-left" style="font-size: 20px">
     
             <p>It requires more than thirty copies of a book of the Ethiopic Old Testament in order to know the broad contours of its textual history.</p>
           

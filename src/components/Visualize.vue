@@ -2,13 +2,15 @@
   <NavBar/>
   <div class = "container">
     <div class="row">
-      <h1 class="col-4 text-uppercase text-center">VISUALIZATIONS</h1>
-      <h1 class="col-8 mt-auto" ><em>"Ultimately, the data exists to be visualized. This is where the stories emerge."</em></h1>
+      <div style="height: 10px;"/>
+      <h1 class="col-5 text-uppercase mt-auto text-left">VISUALIZATIONS</h1>
+      <h1 class="col-7 mt-auto text-left" ><em style="font-size: 30px">"Ultimately, the data exists to be visualized. This is where the stories emerge."</em></h1>
     </div>
 
 
 
     <div class="row">
+      <div style="height: 50px;"/>
       <div class="col-5 text-left" style="font-size: 26px">
         Hidden in the data-like the proverbial needles in the haystack-are hidden patterns of shared variations. Once we find the patterns, the task is to visualize the results and tell the stories.
       </div>

@@ -2,16 +2,18 @@
 <NavBar/>
   <div class = "container">
     <div class="row">
-      <h1 class="col-6  text-left">LEARN MORE</h1>
+      <div style="height: 10px;"/>
+      <h1 class="col-6  mt-auto text-left">LEARN MORE</h1>
       <h1 class="col-6  mt-auto" style="font-size: 25px;"><em>It has taken a full decade to develop our team and our method, complete with workflow, and computer programs.  Now, the big story is coming clear. </em></h1>
     </div>
 
-    <div class="row">
+    <div class="row" >
       <div class="col-5 text-left">
         <p style="font-size: 28px"><strong>Working to tell the story of the path of Christian Scriptures in and through Ethiopian book culture.</strong></p>
       </div>
       <div class="col-2 text-left mt-auto"></div>
-      <div class="col-5 text-left mt-auto">
+      <div class="col-5 text-left">
+          <div style="height: 50px;"/>
           <ul style="list-style-type: none;">
             <li class=""><p>GOALS OF THEOT PROJECT</p></li>
             <li class=""><p>DETAILS OF THE NEH GRANT</p> </li> 
