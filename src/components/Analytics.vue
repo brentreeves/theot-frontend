@@ -4,20 +4,20 @@
     <div style="height: 10px;"/>
     <div class="row">
       <h1 class="col-4 mt-auto text-left">ANALYTICS</h1>
-      <h1 class="col-6 mt-auto" style="font-size: 25px;"><em>"Data science meets book culture and textual history."</em></h1>
+      <h1 class="col-6 mt-auto text-left" style="font-size: 25px;"><em>"Data science meets book culture and textual history."</em></h1>
     </div>
 
 
 
     <div class="row">
       <div style="height: 50px;"/>
-      <div class="col-5 text-left" style="font-size: 26px;">
+      <div class="col-4 text-left" style="font-size: 26px;">
         <p>Turning texts into numbers.</p>
         <p>Identifying patterns in the numbers.</p>
         <p>Turning numbers into stories</p>
       </div>
 
-      <div class="col-7 text-left ">
+      <div class="col-8 text-left ">
         <div class=""><strong>THEOT SCRIPTS</strong></div>
           <ul>
             <li class=""><a href="">Follow this link to the THEOT Scripts (need links) </a> </li> 
@@ -27,7 +27,7 @@
     </div>
 
     <div class="row">
-      <div class="col-5 text-left">
+      <div class="col-4 text-left">
         <div><strong>Bibliograpahy</strong></div>
         <ul>
           <li> Article in Textus </li>
@@ -42,7 +42,7 @@
       </div>
       
 
-      <div class="col-5 text-left">
+      <div class="col-6 text-left">
         <div><strong>Video Tutorials</strong></div>
         <ul>
           <li> <a href="">Introduction to User Interface</a></li>

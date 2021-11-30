@@ -4,7 +4,7 @@
     <div class="row">
       <div style="height: 10px;"/>
       <h1 class="col-4 text-uppercase text-left mt-auto">TEXT VIEWER</h1>
-      <h1 class="col-8 mt-auto" ><em>"There is no better way to see what is going on in the textual history."</em></h1>
+      <h1 class="col-8 mt-auto text-left" style="font-size: 25px" ><em>"There is no better way to see what is going on in the textual history."</em></h1>
     </div>
 
 

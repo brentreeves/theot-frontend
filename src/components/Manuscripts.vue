@@ -4,7 +4,7 @@
     <div class="row">
       <div style="height: 10px;"/>
       <h1 class="col-4 mt-auto text-left">MANUSCRIPTS</h1>
-      <h1 class="col-6 mt-auto text-left" style="font-size: 25px" ><em>"It is the manuscripts that tell the story."</em></h1>
+      <h1 class="col-6 mt-auto text-left" style="font-size: 36px" ><em>"It is the manuscripts that tell the story."</em></h1>
     </div>
 
 

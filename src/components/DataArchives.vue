@@ -4,7 +4,7 @@
     <div class="row">
       <div style="height: 10px;"/>
       <h1 class="col-4 mt-auto text-left">DATA</h1>
-      <h1 class="col-8 mt-auto" style="font-size: 28px;"><em>“No one set of conclusions from the data is more important than the data itself.”</em></h1>
+      <h1 class="col-8 mt-auto text-left" style="font-size: 28px;"><em>“No one set of conclusions from the data is more important than the data itself.”</em></h1>
     </div>
 
     <div class="row">

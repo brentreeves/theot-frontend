@@ -29,7 +29,7 @@
     <div class="row">
         <div class="col-5"/>
         <div class="col-7 text-left">
-          <p class="text-start">VIDEO TUTORIALS</p>
+          <h1 class="text-start text-uppercase" style="font-size: 25px;"><em>VIDEO TUTORIALS</em></h1>
           <ul style="list-style-type: none;">
             <li >
               <a href="">Introduction to User Dashboard</a>
