@@ -49,23 +49,44 @@
 
   <div class="col mb-5 h-100">
 
-                  <a href="http://localhost:8080/api/google/createSheet" target="_blank">
-                    <div id="iconButton"
-                      class="
-                        feature
-                        bg-primary bg-gradient
-                        text-white
-                        rounded-3
-                        mb-3
-                      "                  
-                    >
-                      <i class="bi bi-collection"></i>
-                    </div>
-                  </a>
+    <a href="http://localhost:8080/api/google/createSheet" target="_blank">
+      <div id="iconButton"
+        class="
+          feature
+          bg-primary bg-gradient
+          text-white
+          rounded-3
+          mb-3
+          "                  
+      >
+      <i class="bi bi-collection"></i>
+      </div>
+    </a>
 
-                  <h2 class="h5"><a href="http://localhost:8080/api/google/createSheet" target="_blank">new sheet</a></h2>
+    <h2 class="h5"><a href="http://localhost:8080/api/google/createSheet" target="_blank">new sheet</a></h2>
                   
-                </div>
+  </div>
+
+  <div class="col mb-5 h-100">
+
+    <a href="http://localhost:8080/api/" target="_blank">
+      <div id="iconButton"
+        class="
+          feature
+          bg-primary bg-gradient
+          text-white
+          rounded-3
+          mb-3
+          "                  
+      >
+      <i class="bi bi-collection"></i>
+      </div>
+    </a>
+
+    <h2 class="h5"><a href="http://localhost:8080/api/google/createSheet" target="_blank">new sheet</a></h2>
+                  
+  </div>
+         
                 
   
 
