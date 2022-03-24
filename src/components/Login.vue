@@ -14,14 +14,25 @@
       p-6
     "
   >
-    <h3 class="text-2xl font-bold mb-4">Login already</h3>
+
+  <h3 class="text-2xl font-bold mb-4">Login already</h3>
+  <form class="form-inline justify-content-center" action="http://localhost:8080/api/login" method="POST">
+     <div class="form-group mb-2">
+      <label for="inputEmail2" class="sr-only">Email</label>
+      <input name="username" type="email" class="form-control" id="inputEmail2" placeholder="Email">
+     </div>
+     <div class="form-group mx-4 mb-2">
+       <label for="inputPassword2" class="sr-only">Password</label>
+       <input name="password" type="password" class="form-control" id="inputPassword2" placeholder="Password">
+     </div>
+     <button type="submit" class="btn btn-primary mb-2">Confirm</button>
+  </form>
+
+    <!--
     <form>
       <div class="relative h-10 input-component mb-5">
         <input
-          id="iEmail"
-          type="text"
-          name="iEmail"
-          bind:value="{iEmail}"
+          id="iEmail" type="text" name="iEmail" bind:value="{iEmail}"
           class="
             h-full
             w-full
@@ -63,26 +74,16 @@
       <div class="md:flex md:items-center">
         <div class="md:w-1/3"></div>
         <div class="md:w-2/3">
-          <!-- on:click={addBook} -->
-          <button
-            class="
-              shadow
-              bg-purple-500
-              hover:bg-purple-400
-              focus:shadow-outline focus:outline-none
-              text-white
-              font-bold
-              py-2
-              px-4
-              rounded
-            "
-            type="button"
-          >
-            Request Entry
-          </button>
+          
+          <form action="http://localhost:8081">
+            <button class="" type="submit">
+              Request Entry
+            </button>
+          </form>
         </div>
       </div>
     </form>
+    -->
   </div>
 </template>
 
