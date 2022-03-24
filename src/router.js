@@ -161,6 +161,11 @@ const routes = [
     name: "manuscripts",
     component: () => import("./components/Manuscripts"),
   },
+  {
+    path: "/docs",
+    name: "docs",
+    component: () => import("./components/docs"),
+  },
 ];
 
 const router = createRouter({
