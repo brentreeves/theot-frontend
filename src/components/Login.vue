@@ -19,7 +19,7 @@
   <form class="form-inline justify-content-center" action="http://localhost:8080/api/login" method="POST">
      <div class="form-group mb-2">
       <label for="inputEmail2" class="sr-only">Email</label>
-      <input name="username" type="email" class="form-control" id="inputEmail2" placeholder="Email">
+      <input name="username"  class="form-control" id="inputEmail2" placeholder="Email">
      </div>
      <div class="form-group mx-4 mb-2">
        <label for="inputPassword2" class="sr-only">Password</label>
@@ -27,63 +27,6 @@
      </div>
      <button type="submit" class="btn btn-primary mb-2">Confirm</button>
   </form>
-
-    <!--
-    <form>
-      <div class="relative h-10 input-component mb-5">
-        <input
-          id="iEmail" type="text" name="iEmail" bind:value="{iEmail}"
-          class="
-            h-full
-            w-full
-            border-gray-300
-            px-3
-            transition-all
-            border-blue
-            rounded-sm
-          "
-        />
-        <label for="iEmail" class="absolute left-1 transition-all bg-white px-1"
-          >Email</label
-        >
-      </div>
-      <div class="relative h-10 input-component mb-5">
-        <input
-          id="iPassword"
-          type="text"
-          name="iPassword"
-          placeholder="Password-of-Life"
-          bind:value="{iPassword}"
-          class="
-            h-full
-            w-full
-            border-gray-300
-            px-2
-            transition-all
-            border-blue
-            rounded-sm
-          "
-        />
-        <label
-          for="iPassword"
-          class="absolute left-2 transition-all bg-white px-1"
-        >
-          Ridiculously Complicated Password
-        </label>
-      </div>
-      <div class="md:flex md:items-center">
-        <div class="md:w-1/3"></div>
-        <div class="md:w-2/3">
-          
-          <form action="http://localhost:8081">
-            <button class="" type="submit">
-              Request Entry
-            </button>
-          </form>
-        </div>
-      </div>
-    </form>
-    -->
   </div>
 </template>
 
